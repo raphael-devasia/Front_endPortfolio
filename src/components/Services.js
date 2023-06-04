@@ -85,6 +85,10 @@ const ServiceCard = styled.article`
   text-align: center;
   padding: 2.5rem 2rem;
   border-radius: var(--radius);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 
   .image {
     width: 300px;

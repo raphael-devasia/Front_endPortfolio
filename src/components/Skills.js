@@ -84,13 +84,13 @@ const Wrapper = styled.section`
 
     .skill-box {
       width: 80%;
-      padding-left:2rem;
+      padding-left: 2rem;
       padding-right: 2rem;
-      padding-bottom:1rem;
+      padding-bottom: 1rem;
       display: flex;
       flex-direction: column;
       align-items: center;
-      border-radius:15px;
+      border-radius: 15px;
       box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 
       .skill-set {
@@ -139,7 +139,12 @@ const Wrapper = styled.section`
       flex-direction: column;
       justify-content: center;
       align-items: center;
-    } 
+    }
+    .featured {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
   }
 `;
 
