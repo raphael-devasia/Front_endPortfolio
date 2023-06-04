@@ -118,9 +118,10 @@ const Wrapper = styled.section`
   h6 {
     margin-top: 2rem;
     margin-bottom: 2rem;
+    line-height: 2;
   }
-  h2{
-    line-height:1.3;
+  h2 {
+    line-height: 1.3;
   }
   p {
     line-height: 2;
@@ -141,6 +142,11 @@ const Wrapper = styled.section`
   @media (max-width: 768px) {
     h6 {
       font-size: 16px; /* Increase font size for smaller devices */
+    }
+  }
+  @media (max-width: 992px) {
+    img{
+      display:none;
     }
   }
 `;

@@ -71,7 +71,7 @@ export const services = [
     icon: project1,
     title: "Watch Crafters",
     git: "https://github.com/raphael-devasia/WatchCrafters",
-    live: "https://whispered-lines.vercel.app/",
+    live: "https://watchcrafters.netlify.app/",
     text: "This project is a store that allows users to register accounts, log in and out, make payments, and join the newsletter. Users can add items to their shopping cart and proceed to payment using a fake credit card for testing purposes. The site includes features such as product filtering and sorting, with stock numbers linked to each item to prevent over-purchasing. The technologies used in this project include Axios, Redux, Dotenv, React, React-Icons, React-Router-Dom, Stripe, Styled-Components, and Airtable.",
   },
   {

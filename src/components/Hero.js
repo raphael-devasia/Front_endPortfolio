@@ -51,11 +51,11 @@ const Wrapper = styled.section`
     gap: 8rem;
     h1 {
       margin-bottom: 2rem;
-      
     }
-    h2{
-      font-size:2rem;
-      margin-bottom:1rem;
+    h2 {
+      font-size: 2rem;
+      margin-bottom: 1rem;
+      letter-spacing: normal;
     }
     p {
       font-size: 1.25rem;
@@ -95,6 +95,11 @@ const Wrapper = styled.section`
       border-radius: var(--radius);
     } */
   }
-`
+  @media (max-width: 576px) {
+    h1{
+      margin-top:1.6rem
+    }
+  }
+`;
 
 export default Hero
